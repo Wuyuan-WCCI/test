@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class HelloController {
     @GetMapping("/hello")
-    @CrossOrigin(origins = "http://localhost:5173")
+    @CrossOrigin(origins = "https://myfirstonetestapp.vercel.app")
     public String hello() {
-        return "Hello, World!\n 你好，世界";
+        return "Hello, World!\n 你好，世界\n Add CrossOrigin";
     }
 }
