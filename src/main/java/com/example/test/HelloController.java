@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping("/hello")
     @CrossOrigin(origins = "http://localhost:5173")
     public String hello() {
-        return "Hello, World!";
+        return "Hello, World!\n 你好，世界";
     }
 }
